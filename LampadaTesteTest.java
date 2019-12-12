@@ -48,5 +48,18 @@ public class LampadaTesteTest {
     public void testUtilizarLampada() {
 assertTrue(L.utilizarLampada(1));
     }
+
+    /**
+     * Test of precoLampada method, of class LampadaTeste.
+     */
+    @Test
+    public void testPrecoLampada() {
+        assertEquals(20, L.precoLampada(5,4), 0.0);
+    }
+
     
 }
+    
+    
+    
+
